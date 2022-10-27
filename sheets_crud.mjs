@@ -186,7 +186,7 @@ const performSheetQuery = (auth,query,res) => {
             return console.log('The Sheets API returned an error: ' + err) //If there's an error show it in the terminal
         }else{
             const rows = queryResponse.data.values //Otherwise, pull the rows from the sheet
-            if (rows.length) {//If there are any rows                
+            if (rows) {//If there are any rows                
                 //Send them back to the client
                 res.json({  
                     data : rows
