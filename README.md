@@ -1,6 +1,6 @@
 ### NodeJS Integrating With Google Sheets
 
-For this project I wanted to create a front end page that used Google Sheets as a sort of data storage. To achieve this, I created a Node.js client that interfaces the front end with google sheets through the google api. 
+For this project I wanted to create a front end page that used Google Sheets as a sort of data storage. To achieve this, I created a Node.js client that interfaces the front end with google sheets through the google api. So far I have achieved reading the data, and appending a new row to the end of the sheet. Next is updaing rows, and deleting rows, then we'll have a full CRUD.
 
 ##### Preview
 ![Assets Preview](/assets/preview.gif)
@@ -17,3 +17,7 @@ For this project I wanted to create a front end page that used Google Sheets as 
 7. Download the json file and rename it to credentials.json. Place this file in the root folder of the project. Our code will be expecting it and needs it to authenticate with the google APIs and talk to Google Sheets.
 ![Download Credentials JSON File](/assets/download_creds.png)
 8. Now we're ready to rock and roll : `npm run start`
+
+
+#### Questions or Concerns
+Please feel free to email me @ aldanisvigo@gmail.com
